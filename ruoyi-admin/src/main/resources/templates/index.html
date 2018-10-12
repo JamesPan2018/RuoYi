@@ -18,11 +18,12 @@
     <link th:href="@{/ruoyi/css/ry-ui.css?v=3.0.0}" rel="stylesheet"/>
     <style type="text/css">
         .nav > li:hover .dropdown-menu {display: block;}
+        .btn-primary { background-color: #20c1dc !important; }
+        .btn-primary:hover, .btn-primary:active { background-color: #13b4cf !important; }
     </style>
 </head>
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow: hidden" th:classappend="${@config.getKey('sys.index.skinName')}">
 <div id="wrapper">
-
     <!--左侧导航开始-->
     <nav class="navbar-default navbar-static-side" role="navigation">
         <div class="nav-close">
@@ -34,7 +35,7 @@
                     <div class="dropdown profile-element"> <span>
                          <img th:src="(${user.avatar} == '') ? @{/img/profile.jpg} : @{/profile/avatar/} + ${user.avatar}" alt="image" class="img-circle" height="60" width="60"/></span>
                          <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                          <span class="clear"><span class="block m-t-xs"><strong class="font-bold" th:text="${user.userName}">用户</strong></span>
+                         <span class="clear"><span class="block m-t-xs"><strong class="font-bold" th:text="${user.userName}">用户</strong></span>
                          <span class="text-muted text-xs block"><span th:text="${user.dept?.deptName}">部门</span> <b class="caret"></b></span> </span> </a>
                          <ul class="dropdown-menu animated fadeInRight m-t-xs">
                              <li><a class="menuItem" th:href="@{/system/user/profile}">个人信息</a></li>
@@ -52,7 +53,7 @@
                 <li th:each="menu : ${menus}">
                 	<a href="#">
                 		<i class="fa fa fa-bar-chart-o" th:class="${menu.icon}"></i>
-                    	<span class="nav-label" th:text="${menu.menuName}">一级菜单</span> 
+                    	<span class="nav-label" th:text="${menu.menuName}">一级菜单</span>
                     	<span class="fa arrow"></span>
                 	</a>
                    <ul class="nav nav-second-level collapse">
@@ -76,15 +77,9 @@
             <nav class="navbar navbar-static-top" role="navigation"
                  style="margin-bottom: 0">
                 <div class="navbar-header">
-
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-default " href="#" title="收起菜单">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#" title="收起菜单">
                     	<i class="fa fa-bars"></i>
                     </a>
-                    <form role="search" class="navbar-form-custom" method="post" action="">
-                        <div class="form-group">
-                            <input type="text" placeholder="请输入您需要查找的内容 …" class="form-control" name="top-search" id="top-search">
-                        </div>
-                    </form>
                 </div>
                 <ul class="nav navbar-top-links navbar-right welcome-message">
 	                <li>
@@ -135,7 +130,6 @@
 <script th:src="@{/js/plugins/metisMenu/jquery.metisMenu.js}"></script>
 <script th:src="@{/js/plugins/slimscroll/jquery.slimscroll.min.js}"></script>
 <script th:src="@{/ajax/libs/blockUI/jquery.blockUI.js}"></script>
-<script src="http://tajs.qq.com/stats?sId=62048022"></script>
 <script th:src="@{/ruoyi/js/ry-ui.js?v=3.0.0}"></script>
 <script th:src="@{/ruoyi/index.js}"></script>
 <script th:src="@{/ajax/libs/fullscreen/jquery.fullscreen.js}"></script>
