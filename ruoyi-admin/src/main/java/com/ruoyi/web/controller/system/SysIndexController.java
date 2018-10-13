@@ -36,11 +36,11 @@ public class SysIndexController extends BaseController
         return "index";
     }
 
-    // 系统介绍
-    @GetMapping("/system/main")
+    // 图表分析
+    @GetMapping("/system/graph")
     public String main(ModelMap mmap)
     {
         mmap.put("version", Global.getVersion());
-        return "main";
+        return "graph";
     }
 }

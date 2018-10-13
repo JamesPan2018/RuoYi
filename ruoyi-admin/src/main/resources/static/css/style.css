@@ -54,7 +54,7 @@ a:focus {
     color: #999c9e;
 }
 
-.nav.navbar-right>li>a:hover {
+.nav.navbar-right>li>a:hover, .nav.navbar-right>li>a:active {
     color: #ffffff;
     background: #20c1dc;
 }
@@ -3752,6 +3752,18 @@ table.table-mail tr td {
     right: 0;
 }
 /* BACKGROUNDS */
+.error-bg {
+    background: #f0f2f5;
+    background-image: url(../img/bg.svg);
+    width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    padding: 20px 0;
+    position: relative;
+}
+
 .gray-bg {
     background-color: #f3f3f4;
 }
