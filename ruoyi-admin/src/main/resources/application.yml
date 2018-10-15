@@ -8,6 +8,7 @@ ruoyi:
   copyrightYear: 2018
   # 文件上传路径
   profile: /Users/zhuanghl/Pictures/profile/
+#  profile: ../profile/
   # 获取ip地址开关
   addressEnabled: true
 
@@ -93,7 +94,7 @@ shiro:
     # 首页地址
     indexUrl: /index
     # 验证码开关
-    captchaEnabled: false
+    captchaEnabled: true
     # 验证码类型 math 数组计算 char 字符
     captchaType: math
   cookie:

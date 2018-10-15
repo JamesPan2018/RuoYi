@@ -688,10 +688,6 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
     min-width: 120px;
 }
 
-.btn.active.focus, .btn.active:focus,.btn.focus, .btn:active.focus,.btn:active:focus, .btn:focus {
-    outline: none;
-}
-
 .btn-primary.btn-outline {
     color: #1ab394;
 }
