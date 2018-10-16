@@ -1,18 +1,6 @@
 ## 平台简介
 
-一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适的。于是利用空闲休息时间开始自己写了一套后台系统。如此有了若依。她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA。所有前端后台代码封装过后十分精简易上手，出错概率低。同时支持移动客户端访问。系统会陆续更新一些实用功能。
-
-性别男，若依是女儿的名字。
-
-若依基于hplus和inspinia两套后台系统模板开发。有需要可自行到群内下载。
-
-http://www.zi-han.net/theme/hplus
-
-http://webapplayers.com/inspinia_admin-v2.7.1
-
-> RuoYi从3.0开始，进行模块拆分，将原先的单应用转变为多模块，如需单应用，请移步 [RuoYi-fast](https://gitee.com/y_project/RuoYi-fast)  
-
-> 推荐使用阿里云部署，通用云产品代金券 ：[点我领取](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=brki8iof)
+基于 [RuoYi](https://gitee.com/y_project/RuoYi) 修改
 
 ## 内置功能
 
@@ -41,12 +29,12 @@ http://webapplayers.com/inspinia_admin-v2.7.1
 
 <table>
     <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/25b5e333768d013d45a990c152dbe4d9d6e.jpg"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/1005/194326_GBIJ_1438828.png"/></td>
+        <td><img src="https://github.com/Asening/imgurl/blob/master/RuoYi/01.png?raw=true"/></td>
+        <td><img src="https://github.com/Asening/imgurl/blob/master/RuoYi/02.png?raw=true"/></td>
     </tr>
     <tr>
-        <td><img src="https://static.oschina.net/uploads/space/2018/1005/194443_Qyuq_1438828.png"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/1005/194501_U7gT_1438828.png"/></td>
+        <td><img src="https://github.com/Asening/imgurl/blob/master/RuoYi/03.png?raw=true"/></td>
+        <td><img src="https://github.com/Asening/imgurl/blob/master/RuoYi/04.png?raw=true"/></td>
     </tr>
     <tr>
         <td><img src="https://static.oschina.net/uploads/space/2018/1005/194525_PApp_1438828.png"/></td>
@@ -56,17 +44,5 @@ http://webapplayers.com/inspinia_admin-v2.7.1
         <td><img src="https://static.oschina.net/uploads/space/2018/1005/194612_kJ4F_1438828.png"/></td>
         <td><img src="https://static.oschina.net/uploads/space/2018/1005/194623_YEXO_1438828.png"/></td>
     </tr>
-	<tr>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0902/132548_ne4U_1438828.png"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/1005/194643_MsxF_1438828.png"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://static.oschina.net/uploads/space/2018/1005/194658_40L4_1438828.png"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/1005/194712_2ma3_1438828.png"/></td>
-    </tr>
 </table>
 
-
-## 若依交流群
-
-QQ群： [![加入QQ群](https://img.shields.io/badge/已满-1389287-blue.svg)](https://jq.qq.com/?_wv=1027&k=5HBAaYN)  [![加入QQ群](https://img.shields.io/badge/QQ群-1679294-blue.svg)](https://jq.qq.com/?_wv=1027&k=5cHeRVW) 点击按钮入群。
