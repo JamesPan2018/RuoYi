@@ -36,13 +36,5 @@
         <td><img src="https://github.com/Asening/imgurl/blob/master/RuoYi/03.png?raw=true"/></td>
         <td><img src="https://github.com/Asening/imgurl/blob/master/RuoYi/04.png?raw=true"/></td>
     </tr>
-    <tr>
-        <td><img src="https://static.oschina.net/uploads/space/2018/1005/194525_PApp_1438828.png"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/1005/194535_3EM0_1438828.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://static.oschina.net/uploads/space/2018/1005/194612_kJ4F_1438828.png"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/1005/194623_YEXO_1438828.png"/></td>
-    </tr>
 </table>
 
