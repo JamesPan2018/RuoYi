@@ -384,7 +384,7 @@ CREATE TABLE `sys_job` (
   `method_name` varchar(500) DEFAULT '' COMMENT '任务方法',
   `method_params` varchar(200) DEFAULT '' COMMENT '方法参数',
   `cron_expression` varchar(255) DEFAULT '' COMMENT 'cron执行表达式',
-  `misfire_policy` varchar(20) DEFAULT '0' COMMENT '计划执行错误策略（0默认 1继续 2等待 3放弃）',
+  `misfire_policy` varchar(20) DEFAULT '1' COMMENT '计划执行错误策略（1继续 2等待 3放弃）',
   `status` char(1) DEFAULT '0' COMMENT '状态（0正常 1暂停）',
   `create_by` varchar(64) DEFAULT '' COMMENT '创建者',
   `create_time` datetime DEFAULT NULL COMMENT '创建时间',
@@ -398,8 +398,8 @@ CREATE TABLE `sys_job` (
 -- Records of sys_job
 -- ----------------------------
 BEGIN;
-INSERT INTO `sys_job` VALUES (1, 'ryTask', '系统默认（无参）', 'ryNoParams', '', '0/10 * * * * ?', '0', '1', 'admin', '2018-03-16 11:33:00', 'admin', '2018-10-13 12:11:30', '');
-INSERT INTO `sys_job` VALUES (2, 'ryTask', '系统默认（有参）', 'ryParams', 'ry', '0/20 * * * * ?', '0', '1', 'admin', '2018-03-16 11:33:00', 'ry', '2018-03-16 11:33:00', '');
+INSERT INTO `sys_job` VALUES (1, 'ryTask', '系统默认（无参）', 'ryNoParams', '', '0/10 * * * * ?', '1', '1', 'admin', '2018-03-16 11:33:00', 'admin', '2018-10-13 12:11:30', '');
+INSERT INTO `sys_job` VALUES (2, 'ryTask', '系统默认（有参）', 'ryParams', 'ry', '0/20 * * * * ?', '1', '1', 'admin', '2018-03-16 11:33:00', 'ry', '2018-03-16 11:33:00', '');
 COMMIT;
 
 -- ----------------------------

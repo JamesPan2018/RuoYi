@@ -9,7 +9,7 @@ import com.ruoyi.common.utils.http.HttpUtils;
 
 /**
  * 获取地址类
- * 
+ *
  * @author ruoyi
  */
 public class AddressUtils
@@ -21,6 +21,12 @@ public class AddressUtils
     public static String getRealAddressByIP(String ip)
     {
         String address = "XX XX";
+
+        // 内网不查询
+        if (IpUtils.internalIp(ip))
+        {
+            return "内网IP";
+        }
         if (Global.isAddressEnabled())
         {
             String rspStr = HttpUtils.sendPost(IP_URL, "ip=" + ip);
