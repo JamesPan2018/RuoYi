@@ -22,31 +22,28 @@
 	left: 500px;
 	top: 0;
 	width: 200px;
-	border: 1px #ddd solid;
+	border: 1px solid #20c1dc;
 	height: 440px;
 	padding: 4px;
-	box-shadow: 0px 0px 12px #ddd;
 	text-align: center;
 }
 .imageBox {
 	position: relative;
 	height: 400px;
 	width: 400px;
-	border: 1px solid #aaa;
 	background: #fff;
 	overflow: hidden;
 	background-repeat: no-repeat;
 	cursor: move;
-	box-shadow: 4px 4px 12px #B0B0B0; 
 }
 .imageBox .thumbBox {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 200px;
-	height: 200px;
-	margin-top: -100px;
-	margin-left: -100px;
+	width: 300px;
+	height: 300px;
+	margin-top: -150px;
+	margin-left: -150px;
 	box-sizing: border-box;
 	border: 1px solid rgb(102, 102, 102);
 	box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
@@ -71,11 +68,9 @@
   font-size: 14px;
   color: #FFFFFF;
   margin:0px 2px;
-  background-color: #f38e81;
-  border-radius: 3px;
+  background-color: #20c1dc;
   text-decoration: none;
   cursor: pointer;
-  box-shadow: 0px 0px 5px #B0B0B0;
   border: 0px #fff solid;}
 /*选择文件上传*/
 .new-contentarea {
@@ -113,15 +108,13 @@ a.upload-img{
 	line-height: 37px;
 	font-size: 14px;
 	color: #FFFFFF;
-	background-color: #f38e81;
-	border-radius: 3px;
+	background-color: #20c1dc;
 	text-decoration:none;
 	cursor:pointer;
 	border: 0px #fff solid;
-	box-shadow: 0px 0px 5px #B0B0B0;
 }
 a.upload-img:hover{
-	background-color: #ec7e70;
+	background-color: #13b4cf;
 }
 
 .tc{text-align:center;}
