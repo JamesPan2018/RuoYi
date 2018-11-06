@@ -28,5 +28,7 @@ public class RuoYiApplication
                 " |  | \\ `'   /|   `-'  /           \n" +
                 " |  |  \\    /  \\      /           \n" +
                 " ''-'   `'-'    `-..-'              ");
+
+        System.out.println("URL path is : http://localhost:8080   , and user/password is admin/admin123");
     }
 }
